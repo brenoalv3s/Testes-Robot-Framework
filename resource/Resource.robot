@@ -60,7 +60,3 @@ Coferir se o Carrinho está vazio
 
 Clicar no botão superior direito “${LOGIN}”
   Click Link    xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a
-
-Inserir um e-mail válido
-  Wait Until Element Contains   id=create-account_form
-  Input Text    id=email_create     breno@testrobot.com
