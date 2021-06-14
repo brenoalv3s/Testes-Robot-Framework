@@ -1,0 +1,33 @@
+1623699362768	geckodriver	INFO	Listening on 127.0.0.1:36777
+1623699362779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5HnpOn"
+1623699363452	Marionette	INFO	Marionette enabled
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.556: cache version is different 1 != 2
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.556: include in Compose files not supported: include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "Ə" U018f: <Multi_key> <e> <e> 			: "Ə" U018f
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "〝" U301d	# REVERSED DOUBLE PRIME QUOTATION MARK: <Multi_key> <quotedbl> <backslash> 	: "〝" U301d	# REVERSED DOUBLE PRIME QUOTATION MARK
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "〞" U301e	# DOUBLE PRIME QUOTATION MARK: <Multi_key> <quotedbl> <slash>  	: "〞" U301e	# DOUBLE PRIME QUOTATION MARK
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "Ç" Ccedilla	# LATIN CAPITAL LETTER C WITH CEDILLA: <dead_acute> <C> 			: "Ç" Ccedilla	# LATIN CAPITAL LETTER C WITH CEDILLA
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "ç" ccedilla	# LATIN SMALL LETTER C WITH CEDILLA: <dead_acute> <c> 			: "ç" ccedilla	# LATIN SMALL LETTER C WITH CEDILLA
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "Ȩ" U0228	# LATIN CAPITAL LETTER E WITH CEDILLA: <Multi_key> <comma> <E> 		: "Ȩ" U0228	# LATIN CAPITAL LETTER E WITH CEDILLA
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "ȩ" U0229	# LATIN SMALL LETTER E WITH CEDILLA: <Multi_key> <comma> <e> 		: "ȩ" U0229	# LATIN SMALL LETTER E WITH CEDILLA
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "Ḝ" U1E1C	# LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE: <Multi_key> <U> <comma> <E> 		: "Ḝ" U1E1C	# LATIN CAPITAL LETTER E WITH CEDILLA AND BREVE
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "ḝ" U1E1D	# LATIN SMALL LETTER E WITH CEDILLA AND BREVE: <Multi_key> <U> <comma> <e> 		: "ḝ" U1E1D	# LATIN SMALL LETTER E WITH CEDILLA AND BREVE
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "ϓ" U03D3	# GREEK UPSILON WITH ACUTE AND HOOK SYMBOL: <Multi_key> <acute> <U03D2> 		: "ϓ" U03D3	# GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
+
+(firefox:43408): Gtk-WARNING **: 16:36:03.557: Need to double-quote the value: "ϓ" U03D3	# GREEK UPSILON WITH ACUTE AND HOOK SYMBOL: <Multi_key> <apostrophe> <U03D2> 	: "ϓ" U03D3	# GREEK UPSILON WITH ACUTE AND HOOK SYMBOL
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5HnpOn/search.json.mozlz4", (void 0)))
+1623699365732	Marionette	INFO	Listening on port 34605
+1623699365820	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623699439278	Marionette	INFO	Stopped listening on port 34605
