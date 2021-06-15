@@ -4,6 +4,8 @@ Library   SeleniumLibrary
 *** Variable ***
 ${URL}        http://automationpractice.com/
 ${BROWSER}    firefox
+${FIRSTNAME}  Breno
+${LASTNAME}   Alves      
 
 *** Keywords ***
 #### Setup e Teardown
@@ -59,4 +61,28 @@ Coferir se o Carrinho está vazio
   Current Frame Should Contain    Your shopping cart is empty.    class=alert alert-warning
 
 Clicar no botão superior direito “${LOGIN}”
-  Click Link    xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a
+  Click Link    xpath=//*[@id="header"]/div[2]//a[@class="login"]
+
+Inserir um e-mail válido  
+  Input Text     id=email_create      brenoalv3ss@test.com
+
+Clicar em "${CREAT_ACCOUNT}" para cadastrar
+  Click Button    id=SubmitCreate
+
+Preencher os campos obrigatórios
+  Wait Until Element Is Visible     id=customer_firstname
+  Input Text       id=customer_firstname    ${FIRSTNAME}
+  Input Text       id=customer_lastname     ${LASTNAME}
+  Input Password   id=passwd                breno123
+  Input Text       id=firstname             ${FIRSTNAME}
+  Input Text       id=lastname              ${LASTNAME}
+  Input Text       id=address1              Rua 1
+  Input Text       id=city                  Recife
+  Run Keyword If    '${BROWSER}'=='firefox'     Wait Until Element Is Visible    id=id_state
+  Select From List By Index     id=id_state   9
+  Input Text       id=postcode              00000
+  Select From List By Value    id=id_country  United States
+  Input Text       id=phone_mobile          00000000000
+
+Clicar em "${REGISTER}" para finalizar o cadastro
+  Click Button    id=submitAccount
